@@ -1,0 +1,32 @@
+<!--1: Configure TestNG to run tests in parallel using different browsers (e.g., Chrome and Firefox).-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRUD Web Application Tests">
+	<listeners>
+		<listener class-name="report.Listeners" />
+	</listeners>
+	<test name="SignUp Test">
+		<classes>
+			<class name="testcases.SignUpTest" />
+		</classes>
+	</test>
+	<test name="SignIn tests">
+		<classes>
+			<class name="testcases.SignInTest" />
+		</classes>
+	</test>
+	<test name="Onboard Nodes Test">
+		<classes>
+			<class name="testcases.OnboardNodesTest" />
+		</classes>
+	</test>
+	<test name="Child Network Test">
+		<classes>
+			<class name="testcases.ChildNetworkTest" />
+		</classes>
+	</test>
+	<test name="SignOut Test">
+		<classes>
+			<class name="testcases.SignOutTest" />
+		</classes>
+	</test>
+</suite>

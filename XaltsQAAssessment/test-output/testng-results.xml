@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-01T15:35:17 IST" name="CRUD Web Application Tests" finished-at="2025-02-01T15:36:51 IST" duration-ms="93828">
+    <groups>
+    </groups>
+    <test started-at="2025-02-01T15:35:17 IST" name="SignUp Test" finished-at="2025-02-01T15:35:32 IST" duration-ms="14840">
+      <class name="testcases.SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:17 IST" name="setUp" finished-at="2025-02-01T15:35:20 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpWithAlreadyRegisteredEmail()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:20 IST" name="testSignUpWithAlreadyRegisteredEmail" finished-at="2025-02-01T15:35:22 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithAlreadyRegisteredEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:22 IST" name="tearDown" finished-at="2025-02-01T15:35:22 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:22 IST" name="setUp" finished-at="2025-02-01T15:35:23 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpWithInvalidEmailPattern()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:23 IST" name="testSignUpWithInvalidEmailPattern" finished-at="2025-02-01T15:35:24 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithInvalidEmailPattern -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:24 IST" name="tearDown" finished-at="2025-02-01T15:35:24 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:24 IST" name="setUp" finished-at="2025-02-01T15:35:26 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpWithInvalidPassword()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:26 IST" name="testSignUpWithInvalidPassword" finished-at="2025-02-01T15:35:27 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:27 IST" name="tearDown" finished-at="2025-02-01T15:35:27 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:27 IST" name="setUp" finished-at="2025-02-01T15:35:29 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpWithoutEmailAndPassword()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:29 IST" name="testSignUpWithoutEmailAndPassword" finished-at="2025-02-01T15:35:29 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithoutEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:29 IST" name="tearDown" finished-at="2025-02-01T15:35:29 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:29 IST" name="setUp" finished-at="2025-02-01T15:35:31 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulSignUp()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:31 IST" name="testSuccessfulSignUp" finished-at="2025-02-01T15:35:32 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpTest@72437d8d]" started-at="2025-02-01T15:35:32 IST" name="tearDown" finished-at="2025-02-01T15:35:32 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SignUpTest -->
+    </test> <!-- SignUp Test -->
+    <test started-at="2025-02-01T15:35:32 IST" name="SignIn tests" finished-at="2025-02-01T15:35:46 IST" duration-ms="13535">
+      <class name="testcases.SignInTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:32 IST" name="setUp" finished-at="2025-02-01T15:35:34 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignInWithIncorrectdPassword()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:34 IST" name="testSignInWithIncorrectdPassword" finished-at="2025-02-01T15:35:36 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithIncorrectdPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:36 IST" name="tearDown" finished-at="2025-02-01T15:35:36 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:36 IST" name="setUp" finished-at="2025-02-01T15:35:38 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignInWithInvalidEmailFormat()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:38 IST" name="testSignInWithInvalidEmailFormat" finished-at="2025-02-01T15:35:39 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:39 IST" name="tearDown" finished-at="2025-02-01T15:35:39 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:39 IST" name="setUp" finished-at="2025-02-01T15:35:41 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignInWithUnregisteredEmail()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:41 IST" name="testSignInWithUnregisteredEmail" finished-at="2025-02-01T15:35:43 IST" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithUnregisteredEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:43 IST" name="tearDown" finished-at="2025-02-01T15:35:43 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:43 IST" name="setUp" finished-at="2025-02-01T15:35:45 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulSignIn()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:45 IST" name="testSuccessfulSignIn" finished-at="2025-02-01T15:35:46 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignInTest@a22cb6a]" started-at="2025-02-01T15:35:46 IST" name="tearDown" finished-at="2025-02-01T15:35:46 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SignInTest -->
+    </test> <!-- SignIn tests -->
+    <test started-at="2025-02-01T15:35:46 IST" name="Onboard Nodes Test" finished-at="2025-02-01T15:36:25 IST" duration-ms="38596">
+      <class name="testcases.OnboardNodesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:46 IST" name="setUp" finished-at="2025-02-01T15:35:48 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOnboardNodeWithInvalidIP()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:48 IST" name="testOnboardNodeWithInvalidIP" finished-at="2025-02-01T15:35:51 IST" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnboardNodeWithInvalidIP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:51 IST" name="tearDown" finished-at="2025-02-01T15:35:51 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:51 IST" name="setUp" finished-at="2025-02-01T15:35:53 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOnboardNodeWithInvalidNodeID()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:53 IST" name="testOnboardNodeWithInvalidNodeID" finished-at="2025-02-01T15:35:56 IST" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnboardNodeWithInvalidNodeID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:56 IST" name="tearDown" finished-at="2025-02-01T15:35:56 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:56 IST" name="setUp" finished-at="2025-02-01T15:35:58 IST" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOnboardNodeWithoutNodeAndIP()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:35:58 IST" name="testOnboardNodeWithoutNodeAndIP" finished-at="2025-02-01T15:36:01 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnboardNodeWithoutNodeAndIP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:01 IST" name="tearDown" finished-at="2025-02-01T15:36:01 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:01 IST" name="setUp" finished-at="2025-02-01T15:36:03 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulDuplicateOnboardNode()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:03 IST" name="testSuccessfulDuplicateOnboardNode" finished-at="2025-02-01T15:36:09 IST" duration-ms="6047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulDuplicateOnboardNode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:09 IST" name="tearDown" finished-at="2025-02-01T15:36:09 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:09 IST" name="setUp" finished-at="2025-02-01T15:36:11 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulMultipleOnboardNode()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:11 IST" name="testSuccessfulMultipleOnboardNode" finished-at="2025-02-01T15:36:17 IST" duration-ms="6540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulMultipleOnboardNode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:17 IST" name="tearDown" finished-at="2025-02-01T15:36:18 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:18 IST" name="setUp" finished-at="2025-02-01T15:36:19 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulOnboardNode()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:19 IST" name="testSuccessfulOnboardNode" finished-at="2025-02-01T15:36:24 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulOnboardNode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OnboardNodesTest@487db668]" started-at="2025-02-01T15:36:24 IST" name="tearDown" finished-at="2025-02-01T15:36:25 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OnboardNodesTest -->
+    </test> <!-- Onboard Nodes Test -->
+    <test started-at="2025-02-01T15:36:25 IST" name="Child Network Test" finished-at="2025-02-01T15:36:46 IST" duration-ms="21673">
+      <class name="testcases.ChildNetworkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:25 IST" name="setUp" finished-at="2025-02-01T15:36:26 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChildNetworkWithInvalidNodeID()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:26 IST" name="testChildNetworkWithInvalidNodeID" finished-at="2025-02-01T15:36:30 IST" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChildNetworkWithInvalidNodeID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:30 IST" name="tearDown" finished-at="2025-02-01T15:36:30 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:30 IST" name="setUp" finished-at="2025-02-01T15:36:32 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChildNetworkWithInvalidWalletAddress()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:32 IST" name="testChildNetworkWithInvalidWalletAddress" finished-at="2025-02-01T15:36:35 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChildNetworkWithInvalidWalletAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:35 IST" name="tearDown" finished-at="2025-02-01T15:36:35 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:35 IST" name="setUp" finished-at="2025-02-01T15:36:37 IST" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChildNetworkWithoutNetworkName()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:37 IST" name="testChildNetworkWithoutNetworkName" finished-at="2025-02-01T15:36:40 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChildNetworkWithoutNetworkName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:40 IST" name="tearDown" finished-at="2025-02-01T15:36:40 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:40 IST" name="setUp" finished-at="2025-02-01T15:36:42 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulChildNetwork()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:42 IST" name="testSuccessfulChildNetwork" finished-at="2025-02-01T15:36:46 IST" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulChildNetwork -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ChildNetworkTest@32f232a5]" started-at="2025-02-01T15:36:46 IST" name="tearDown" finished-at="2025-02-01T15:36:46 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ChildNetworkTest -->
+    </test> <!-- Child Network Test -->
+    <test started-at="2025-02-01T15:36:46 IST" name="SignOut Test" finished-at="2025-02-01T15:36:51 IST" duration-ms="4614">
+      <class name="testcases.SignOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignOutTest@517566b]" started-at="2025-02-01T15:36:46 IST" name="setUp" finished-at="2025-02-01T15:36:48 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulSignOut()[pri:0, instance:testcases.SignOutTest@517566b]" started-at="2025-02-01T15:36:48 IST" name="testSuccessfulSignOut" finished-at="2025-02-01T15:36:51 IST" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulSignOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignOutTest@517566b]" started-at="2025-02-01T15:36:51 IST" name="tearDown" finished-at="2025-02-01T15:36:51 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SignOutTest -->
+    </test> <!-- SignOut Test -->
+  </suite> <!-- CRUD Web Application Tests -->
+</testng-results>

@@ -1,0 +1,5 @@
+testcases\ChildNetworkTest.class
+testcases\OnboardNodesTest.class
+testcases\SignUpTest.class
+testcases\SignInTest.class
+testcases\SignOutTest.class

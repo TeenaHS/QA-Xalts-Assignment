@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CRUD_Web_Application_Tests" class="navigator-link">
+              <span class="suite-name border-passed">CRUD Web Application Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>C:\Users\ASUS\eclipse-workspace\XaltsQAAssessment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CRUD_Web_Application_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CRUD_Web_Application_Tests" class="hide-methods passed suite-CRUD_Web_Application_Tests"> (hide)</a> <!-- hide-methods passed suite-CRUD_Web_Application_Tests -->
+                      <a href="#" panel-name="suite-CRUD_Web_Application_Tests" class="show-methods passed suite-CRUD_Web_Application_Tests"> (show)</a> <!-- show-methods passed suite-CRUD_Web_Application_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-CRUD_Web_Application_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.ChildNetworkTest" class="method navigator-link" hash-for-method="testChildNetworkWithInvalidNodeID">testChildNetworkWithInvalidNodeID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.ChildNetworkTest" class="method navigator-link" hash-for-method="testChildNetworkWithInvalidWalletAddress">testChildNetworkWithInvalidWalletAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.ChildNetworkTest" class="method navigator-link" hash-for-method="testChildNetworkWithoutNetworkName">testChildNetworkWithoutNetworkName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testOnboardNodeWithInvalidIP">testOnboardNodeWithInvalidIP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testOnboardNodeWithInvalidNodeID">testOnboardNodeWithInvalidNodeID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testOnboardNodeWithoutNodeAndIP">testOnboardNodeWithoutNodeAndIP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignInTest" class="method navigator-link" hash-for-method="testSignInWithIncorrectdPassword">testSignInWithIncorrectdPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignInTest" class="method navigator-link" hash-for-method="testSignInWithInvalidEmailFormat">testSignInWithInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignInTest" class="method navigator-link" hash-for-method="testSignInWithUnregisteredEmail">testSignInWithUnregisteredEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignUpTest" class="method navigator-link" hash-for-method="testSignUpWithAlreadyRegisteredEmail">testSignUpWithAlreadyRegisteredEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignUpTest" class="method navigator-link" hash-for-method="testSignUpWithInvalidEmailPattern">testSignUpWithInvalidEmailPattern</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignUpTest" class="method navigator-link" hash-for-method="testSignUpWithInvalidPassword">testSignUpWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignUpTest" class="method navigator-link" hash-for-method="testSignUpWithoutEmailAndPassword">testSignUpWithoutEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.ChildNetworkTest" class="method navigator-link" hash-for-method="testSuccessfulChildNetwork">testSuccessfulChildNetwork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testSuccessfulDuplicateOnboardNode">testSuccessfulDuplicateOnboardNode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testSuccessfulMultipleOnboardNode">testSuccessfulMultipleOnboardNode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.OnboardNodesTest" class="method navigator-link" hash-for-method="testSuccessfulOnboardNode">testSuccessfulOnboardNode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignInTest" class="method navigator-link" hash-for-method="testSuccessfulSignIn">testSuccessfulSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignOutTest" class="method navigator-link" hash-for-method="testSuccessfulSignOut">testSuccessfulSignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRUD_Web_Application_Tests" title="testcases.SignUpTest" class="method navigator-link" hash-for-method="testSuccessfulSignUp">testSuccessfulSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CRUD_Web_Application_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CRUD_Web_Application_Tests" class="panel CRUD_Web_Application_Tests">
+          <div class="suite-CRUD_Web_Application_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.OnboardNodesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnboardNodeWithInvalidIP">
+                  </a> <!-- testOnboardNodeWithInvalidIP -->
+                  <span class="method-name">testOnboardNodeWithInvalidIP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnboardNodeWithInvalidNodeID">
+                  </a> <!-- testOnboardNodeWithInvalidNodeID -->
+                  <span class="method-name">testOnboardNodeWithInvalidNodeID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnboardNodeWithoutNodeAndIP">
+                  </a> <!-- testOnboardNodeWithoutNodeAndIP -->
+                  <span class="method-name">testOnboardNodeWithoutNodeAndIP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulDuplicateOnboardNode">
+                  </a> <!-- testSuccessfulDuplicateOnboardNode -->
+                  <span class="method-name">testSuccessfulDuplicateOnboardNode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulMultipleOnboardNode">
+                  </a> <!-- testSuccessfulMultipleOnboardNode -->
+                  <span class="method-name">testSuccessfulMultipleOnboardNode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulOnboardNode">
+                  </a> <!-- testSuccessfulOnboardNode -->
+                  <span class="method-name">testSuccessfulOnboardNode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRUD_Web_Application_Tests-class-passed -->
+          <div class="suite-CRUD_Web_Application_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ChildNetworkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChildNetworkWithInvalidNodeID">
+                  </a> <!-- testChildNetworkWithInvalidNodeID -->
+                  <span class="method-name">testChildNetworkWithInvalidNodeID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChildNetworkWithInvalidWalletAddress">
+                  </a> <!-- testChildNetworkWithInvalidWalletAddress -->
+                  <span class="method-name">testChildNetworkWithInvalidWalletAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChildNetworkWithoutNetworkName">
+                  </a> <!-- testChildNetworkWithoutNetworkName -->
+                  <span class="method-name">testChildNetworkWithoutNetworkName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulChildNetwork">
+                  </a> <!-- testSuccessfulChildNetwork -->
+                  <span class="method-name">testSuccessfulChildNetwork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRUD_Web_Application_Tests-class-passed -->
+          <div class="suite-CRUD_Web_Application_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInWithIncorrectdPassword">
+                  </a> <!-- testSignInWithIncorrectdPassword -->
+                  <span class="method-name">testSignInWithIncorrectdPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInWithInvalidEmailFormat">
+                  </a> <!-- testSignInWithInvalidEmailFormat -->
+                  <span class="method-name">testSignInWithInvalidEmailFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInWithUnregisteredEmail">
+                  </a> <!-- testSignInWithUnregisteredEmail -->
+                  <span class="method-name">testSignInWithUnregisteredEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulSignIn">
+                  </a> <!-- testSuccessfulSignIn -->
+                  <span class="method-name">testSuccessfulSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRUD_Web_Application_Tests-class-passed -->
+          <div class="suite-CRUD_Web_Application_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SignOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulSignOut">
+                  </a> <!-- testSuccessfulSignOut -->
+                  <span class="method-name">testSuccessfulSignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRUD_Web_Application_Tests-class-passed -->
+          <div class="suite-CRUD_Web_Application_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpWithAlreadyRegisteredEmail">
+                  </a> <!-- testSignUpWithAlreadyRegisteredEmail -->
+                  <span class="method-name">testSignUpWithAlreadyRegisteredEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpWithInvalidEmailPattern">
+                  </a> <!-- testSignUpWithInvalidEmailPattern -->
+                  <span class="method-name">testSignUpWithInvalidEmailPattern</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpWithInvalidPassword">
+                  </a> <!-- testSignUpWithInvalidPassword -->
+                  <span class="method-name">testSignUpWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpWithoutEmailAndPassword">
+                  </a> <!-- testSignUpWithoutEmailAndPassword -->
+                  <span class="method-name">testSignUpWithoutEmailAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulSignUp">
+                  </a> <!-- testSuccessfulSignUp -->
+                  <span class="method-name">testSuccessfulSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRUD_Web_Application_Tests-class-passed -->
+        </div> <!-- panel CRUD_Web_Application_Tests -->
+        <div panel-name="test-xml-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ASUS\eclipse-workspace\XaltsQAAssessment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CRUD Web Application Tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;report.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUp Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignIn tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SignInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignIn tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Onboard Nodes Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.OnboardNodesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Onboard Nodes Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Child Network Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.ChildNetworkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Child Network Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignOut Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SignOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignOut Test --&gt;
+&lt;/suite&gt; &lt;!-- CRUD Web Application Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CRUD Web Application Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUp Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignIn tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Onboard Nodes Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Child Network Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignOut Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CRUD Web Application Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CRUD Web Application Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CRUD_Web_Application_Tests');
+function tableData_CRUD_Web_Application_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSuccessfulMultipleOnboardNode')
+data.setCell(0, 2, 'testcases.OnboardNodesTest')
+data.setCell(0, 3, 6540);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSuccessfulDuplicateOnboardNode')
+data.setCell(1, 2, 'testcases.OnboardNodesTest')
+data.setCell(1, 3, 6047);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSuccessfulOnboardNode')
+data.setCell(2, 2, 'testcases.OnboardNodesTest')
+data.setCell(2, 3, 5149);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSuccessfulChildNetwork')
+data.setCell(3, 2, 'testcases.ChildNetworkTest')
+data.setCell(3, 3, 4348);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testChildNetworkWithInvalidNodeID')
+data.setCell(4, 2, 'testcases.ChildNetworkTest')
+data.setCell(4, 3, 3745);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testOnboardNodeWithInvalidIP')
+data.setCell(5, 2, 'testcases.OnboardNodesTest')
+data.setCell(5, 3, 3366);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testOnboardNodeWithInvalidNodeID')
+data.setCell(6, 2, 'testcases.OnboardNodesTest')
+data.setCell(6, 3, 3311);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testChildNetworkWithInvalidWalletAddress')
+data.setCell(7, 2, 'testcases.ChildNetworkTest')
+data.setCell(7, 3, 3086);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testChildNetworkWithoutNetworkName')
+data.setCell(8, 2, 'testcases.ChildNetworkTest')
+data.setCell(8, 3, 3049);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testOnboardNodeWithoutNodeAndIP')
+data.setCell(9, 2, 'testcases.OnboardNodesTest')
+data.setCell(9, 3, 2968);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSuccessfulSignOut')
+data.setCell(10, 2, 'testcases.SignOutTest')
+data.setCell(10, 3, 2762);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSignInWithIncorrectdPassword')
+data.setCell(11, 2, 'testcases.SignInTest')
+data.setCell(11, 3, 2098);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSignInWithUnregisteredEmail')
+data.setCell(12, 2, 'testcases.SignInTest')
+data.setCell(12, 3, 2061);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSignUpWithAlreadyRegisteredEmail')
+data.setCell(13, 2, 'testcases.SignUpTest')
+data.setCell(13, 3, 1988);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSuccessfulSignIn')
+data.setCell(14, 2, 'testcases.SignInTest')
+data.setCell(14, 3, 932);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSuccessfulSignUp')
+data.setCell(15, 2, 'testcases.SignUpTest')
+data.setCell(15, 3, 902);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSignInWithInvalidEmailFormat')
+data.setCell(16, 2, 'testcases.SignInTest')
+data.setCell(16, 3, 816);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignUpWithInvalidPassword')
+data.setCell(17, 2, 'testcases.SignUpTest')
+data.setCell(17, 3, 769);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSignUpWithInvalidEmailPattern')
+data.setCell(18, 2, 'testcases.SignUpTest')
+data.setCell(18, 3, 768);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSignUpWithoutEmailAndPassword')
+data.setCell(19, 2, 'testcases.SignUpTest')
+data.setCell(19, 3, 313);
+window.suiteTableData['CRUD_Web_Application_Tests']= { tableData: data, tableDiv: 'times-div-CRUD_Web_Application_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-CRUD_Web_Application_Tests">
+              </div> <!-- times-div-CRUD_Web_Application_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CRUD Web Application Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CRUD_Web_Application_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpWithAlreadyRegisteredEmail</span>
+                <span class="method-start">2334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpWithInvalidEmailPattern</span>
+                <span class="method-start">6194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpWithInvalidPassword</span>
+                <span class="method-start">8894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpWithoutEmailAndPassword</span>
+                <span class="method-start">11515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulSignUp</span>
+                <span class="method-start">13678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14581 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignInWithIncorrectdPassword</span>
+                <span class="method-start">16807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignInWithInvalidEmailFormat</span>
+                <span class="method-start">20782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignInWithUnregisteredEmail</span>
+                <span class="method-start">23534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulSignIn</span>
+                <span class="method-start">27507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28440 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.OnboardNodesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnboardNodeWithInvalidIP</span>
+                <span class="method-start">30391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnboardNodeWithInvalidNodeID</span>
+                <span class="method-start">35652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnboardNodeWithoutNodeAndIP</span>
+                <span class="method-start">40935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulDuplicateOnboardNode</span>
+                <span class="method-start">45799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulMultipleOnboardNode</span>
+                <span class="method-start">53630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulOnboardNode</span>
+                <span class="method-start">61972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ChildNetworkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testChildNetworkWithInvalidNodeID</span>
+                <span class="method-start">69002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testChildNetworkWithInvalidWalletAddress</span>
+                <span class="method-start">74669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testChildNetworkWithoutNetworkName</span>
+                <span class="method-start">79689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulChildNetwork</span>
+                <span class="method-start">84538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88887 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SignOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulSignOut</span>
+                <span class="method-start">90814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93577 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
